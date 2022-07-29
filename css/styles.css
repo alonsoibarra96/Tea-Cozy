@@ -1,0 +1,139 @@
+/* Universal styles */ 
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+h1, h2, h3, h4, h5, p, a {
+    color: grey;
+    font-family: Helvetica;
+}
+
+.sect {
+    margin-left: 50px;
+}
+
+
+/* Header */
+
+header .menu-bar{
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header .menu {
+    margin-right: 30px;
+}
+
+header .menu a {
+    margin: 5px;
+    font-size: 22px;
+}
+
+
+/* Main */
+
+/* Banner */
+
+#mission h2, h4 {
+    text-align: center;
+}
+
+#banner {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*m8wb73*_ga*MTIzMzA1MDY1MS4xNjQ4MDc0Mjkz*_ga_3LRZM6TM9L*MTY1OTA1NzM2NS4yMzAuMS4xNjU5MDU5NDYyLjMx");
+    margin: auto;
+}
+
+#mission {
+    background-color: black;
+    width: 1200px;
+}
+
+/* Favorite */
+
+#fav {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 1000px;
+}
+
+#fav img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+#fav h2.subhead {
+    text-align: center;
+}
+
+#imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Location */
+
+.location {
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1f0hm5*_ga*MTIzMzA1MDY1MS4xNjQ4MDc0Mjkz*_ga_3LRZM6TM9L*MTY1OTExMDI0Ny4yMzIuMS4xNjU5MTEwMjUzLjU0");
+}
+
+.location h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.top-galeria {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-location  .conteiners {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.conteiner {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+
+}
+
+.conteiner h3 {
+    text-align: center;
+}
+
+/* Footer */
+.info {
+    text-align: center;
+}
+
+.copy {
+    text-align: left;
+    margin: 20px;
+}
